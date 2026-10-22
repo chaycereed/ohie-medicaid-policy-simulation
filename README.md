@@ -16,6 +16,12 @@ In 2008, Oregon used a lottery to decide which low-income adults could apply for
 
 ## Visual Summary
 
+### Policy Simulation
+
+| Debt averted across budgets | Who receives offers under each allocation rule |
+|:---:|:---:|
+| ![Budget sweep](outputs/allocation_rule_across_budgets.png) | ![Offer composition](outputs/offer_subgroup_composition.png) |
+
 ### Causal Inference
 
 | Effect of a lottery offer by outcome and estimator | Effect of enrollment among compliers (2SLS) |
@@ -27,12 +33,6 @@ In 2008, Oregon used a lottery to decide which low-income adults could apply for
 | Forest prediction vs actual effect by quintile | Effect by prespecified subgroup |
 |:---:|:---:|
 | ![GATES plot](outputs/cate_calibration.png) | ![Subgroup effects](outputs/itt_subgroup_analysis.png) |
-
-### Policy Simulation
-
-| Debt averted across budgets | Who receives offers under each allocation rule |
-|:---:|:---:|
-| ![Budget sweep](outputs/allocation_rule_across_budgets.png) | ![Offer composition](outputs/offer_subgroup_composition.png) |
 
 ### Supervised Learning
 
@@ -53,8 +53,6 @@ In 2008, Oregon used a lottery to decide which low-income adults could apply for
 **Predictors:** Fifteen characteristics recorded before the lottery: age, sex, English-language preference, self versus household sign-up, phone number provided, PO box address, metropolitan ZIP code, sign-up week, first- and last-day sign-up, and prior SNAP and TANF participation and household benefit amounts.
 
 **Design features:** Households with more members had more lottery entries, and the survey was mailed in waves tied to the lottery drawings, so the chance of winning varied from 35% to 92% across household-size by wave cells. All causal models condition on those cells, the within-cell offer rate serves as the known propensity score, survey weights are applied throughout so estimates reflect the full lottery list, and standard errors are clustered by household.
-
-The data files are not included in this repository and must not be committed. See [`data/README.md`](data/README.md) for access and terms of use.
 
 ## Methods
 
