@@ -109,4 +109,4 @@ Generative AI (Claude) was used as a coding, learning, and editing assistant: fo
 
 ## License
 
-Code and text in this repository are released under the [MIT License](LICENSE). The OHIE data are not included and remain subject to the NBER terms of use described in [`data/README.md`](data/README.md).
+Code and text in this repository are released under the [MIT License](LICENSE).
