@@ -2,8 +2,6 @@
 
 **Lottery, Need-Based, and Learned Targeting in the Oregon Health Insurance Experiment**
 
-Chayce Reed
-
 In 2008, Oregon used a lottery to decide which low-income adults could apply for Medicaid. This project asks a question the lottery did not: if a program can only offer coverage to half of its waiting list, who should receive the offer? Using the Oregon Health Insurance Experiment (OHIE) public-use data, the notebook replicates the lottery's effect on medical debt with four estimators, tests whether that effect differs across people with a cross-fitted causal forest, and compares five allocation rules (lottery, need-based, risk-based, benefit-based, universal) under a fixed budget using doubly robust evaluation.
 
 ## Key Findings
